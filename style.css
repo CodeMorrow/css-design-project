@@ -53,6 +53,7 @@
 	border-style: none;
 	border-bottom: solid 1px white;
 	background-color: transparent;
+	
 	color: white;
 }
 
@@ -92,13 +93,13 @@
 }
 
 .profile__image {
-	width: 15px;
+	width: 25px;
 	border-radius: 50%;
 	margin-right: 10px;
 }
 
 .profile__status {
-	width: 10px;
+	width: 7px;
 	margin-left: 20px;
 }
 .nav__list{
@@ -140,12 +141,11 @@
 }
 
 .newReleases{
-	list-style-image: url('images/new_release.png');
+	list-style-image: url('images/new_releases.png');
 }
 
 .movie{
 	margin: 5px;
-	
 }
 
 .movie__posterImage {
@@ -165,5 +165,38 @@
 	font-size: 13px;
 }
 
+.friends__online {
+	margin: 10px;
+}
+
+.friends__profile {
+	display: flex;
+	align-items: center;
+	margin: 12px;
+
+	font-size: 13px;
+}
+
+.friend__image{
+	display: flex;
+	width: 25px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.friend__name {
+	margin: 0px;
+
+	font-size: 10px;
+}
+
+.friend__movie {
+	font-size: 10px;
+}
+
+.friend__status {
+	width: 7px;
+	margin-left: 0px;
+}
 
 
