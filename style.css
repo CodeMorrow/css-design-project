@@ -101,6 +101,9 @@
 	width: 10px;
 	margin-left: 20px;
 }
+.nav__list{
+	list-style-type: none;
+}
 
 .nav__title {
 	color: gray;
@@ -109,12 +112,35 @@
 }
 
 .nav__items {
+
 	color: white;
 	font-size: 13px;
 	margin: 12px 0px;
 }
 .nav__items.is_selected{
 	background-color: #1C242B;
+	width: 100px;
+	padding: 5px;
+}
+
+.playing{
+	list-style-image: url('images/play.png');
+}
+
+.discover{
+	list-style-image: url('images/compass.png');
+}
+
+.activity {
+	list-style-image: url('images/person.png');
+}
+
+.topCharts {
+	list-style-image: url('images/trending_up.png');
+}
+
+.newReleases{
+	list-style-image: url('images/new_release.png');
 }
 
 .movie{
