@@ -174,55 +174,61 @@
 }
 
 .nav__list{
-	padding-left: 20px;
 	list-style-type: none;
+	padding-left: 0px;
 }
 
 .nav__items {
-	padding: 5px 0px;
+	display: flex;
+	align-items: center;
+	padding: 5px 0;
 	color: #F6F7F7;
 	font-size: 11px;
 	font-weight: 500;
 }
 
-.nav__items.is_selected{
+.nav__items.nav__items--is_selected{
 	background-color: #1C242B;
 }
 
-.playing{
-	list-style-image: url('images/play.png');
+.nav__image {
+	padding-right: 5px;
 }
 
-.discover{
-	list-style-image: url('images/compass.png');
+.nav__items--playing{
+
 }
 
-.activity {
-	list-style-image: url('images/person.png');
+.nav__items--discover{
+
 }
 
-.topCharts {
-	list-style-image: url('images/trending_up.png');
+.nav__items--activity {
+
 }
 
-.newReleases{
-	list-style-image: url('images/new_releases.png');
+.nav__items--topCharts {
+
 }
 
-.mustSee{
-	list-style-image: url('images/blue_ring.png');
+.nav__items--newReleases {
+
 }
 
-.theBest{
-	list-style-image: url('images/green_ring.png');
+.nav__items--mustSee {
+	
 }
 
-.bobAndMe{
-	list-style-image: url('images/blue_orange_rings.png');
+.nav__items--theBest{
+	
 }
 
-.travelMovies{
-	list-style-image: url('images/blue_yellow_rings.png');
+.nav__items--bobAndMe{
+
+}
+
+.nav__items--travelMovies{
+
 }
 
 /* ------------------------- Moive CSS ------------------------- */
