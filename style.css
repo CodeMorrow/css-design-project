@@ -1,6 +1,8 @@
 /* ------------------------ layout and background ------------------ */
 .site {
 	margin: 0px;
+	font-family: sans-serif;
+	font-weight: 200;
 }
 .topSuperContainer {
   display: flex;
@@ -88,8 +90,9 @@
 }
 
 .search::-webkit-input-placeholder {
-	color: white;
+	color: #F6F7F7;
 	font-style: italic;
+	font-weight: lighter;
 }
 
 .search__image {
@@ -100,14 +103,14 @@
 /* ------------------------- Title CSS ------------------------- */
 
 .header__title {
-	font-size: 28px;
+	font-size: 24px;
 }
 
 /* ------------------------- Header Sort CSS ------------------------- */
 
 .header__sort {
 	color: #CED6DE;
-	font-size: 13px;
+	font-size: 11px;
 }
 
 .sort__item {
@@ -135,19 +138,18 @@
 /* ------------------------- Header Profile CSS ------------------------- */
 
 .header__profile {
-	font-size: 13px;
-	color: white;
 }
 
 .profile {
 	display: flex;
 	align-items: center;
-	font-size: 13px;
+	font-size: 11px;
+	color: white;
 }
 
 .profile__image {
 	width: 20px;
-	border-radius: 50%;
+	border-radius: 10px;
 	margin-right: 10px;
 }
 
@@ -175,8 +177,8 @@
 
 .nav__items {
 	padding: 5px 0px;
-	color: white;
-	font-size: 13px;
+	color: #F6F7F7;
+	font-size: 11px;
 }
 
 .nav__items.is_selected{
@@ -223,14 +225,23 @@
 
 .movie{
 	margin: 10px;
-	font-size: 13px;
+	font-size: 11px;
+	color: #8D98A6;
 }
 
 .movie__posterImage {
 }
 
+.movie__image {
+	height: 160px;
+	width: 110px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
 .movie__title{
 	font-weight: bold;
+	color: #5B6971;
 }
 
 .movie__genre{
@@ -247,20 +258,20 @@
 }
 .friends__online {
 	color: black;
-	font-size: 12px;
+	font-size: 11px;
 	margin: 30px 0 0 30px;
 }
 
 .friends__offline {
 	color: black;
-	font-size: 12px;
+	font-size: 11px;
 	margin-left: 30px;
 }
 
 .friends__profile {
 	display: flex;
   	flex: 1;
-	font-size: 13px;
+	font-size: 11px;
 	margin: 20px 20px 20px 0;
 }
 
@@ -283,6 +294,7 @@
 	display: flex;
 	align-self: flex-start;
 	width: 25px;
+	height: 25px;
 	border-radius: 50%;
 	margin-right: 10px;
 }
@@ -290,12 +302,14 @@
 .friend_name {
 	display: flex;
 	align-self: center;
+	color: #5B6971;
 }
 
 .friend__movie {
 	display: flex;
 	align-self: center;
 	font-size: 10px;
+	color: #8D98A6;
 }
 
 .friend__status {
