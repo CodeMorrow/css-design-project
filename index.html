@@ -1,214 +1,337 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="style.css">
-	<title></title>
+  <title>Movie Website (CSS Project)</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body class="mainContainer">
-	<div class="box1 header">
 
-		<div class="header__search">
-			<input class="search" type="text" name="search" placeholder="Search movies..."><img src="images/search.png" alt="search">
-		</div>
-		
-		<div class="header__title">Discover
-		</div>
-		
-		<div class="header__sort">Release Date | Popularity
-		</div>
-		
-		<div class="header__icon"><img src="images/refresh.png" alt="refresh"><img src="images/launch.png" alt="start movie">
-		</div>
-		
-		<div class="header__profile">
-			<div class="profile">
-				<img class="profile__image" src="images/me_4.jpg" alt="profile image">
-				John Morrow
-				<img class=" profile__status" src="images/radio_button.png" alt="online status">
-			</div>
-		</div>
+<body class="site">
+  <div class="topSuperContainer">
+    <div class="topContainer">
 
-	</div>
+      <div class="topLeftSidebar">
+        <div class="header__search">
+          <input class="search" type="text" name="search" placeholder="Search movies..."><img class="search__image" src="images/search.png" alt="search">
+        </div>
+      </div>
 
-	<div class="box2 nav">
+      <div class="topMainContent">
 
-		<h5 class="nav__title">Main</h5>
-			<ul class="nav__list">
-				<li class="nav__items playing">Playing</li>
-				<li class="nav__items is_selected discover">Discover</li>
-				<li class="nav__items activity">Activity</li>
-				<li class="nav__items topCharts">Top Charts</li>
-				<li class="nav__items newReleases">New Releases</li>
-			</ul>
+        <div class="header__title">Discover
+        </div>
+    
+        <div class="header__sort">
+          <div class="sort__item">Release Date 
+          </div>
+          <div class="sort__divide">|
+          </div>
+          <div class="sort__item sort__item--selected"> Popularity
+          </div>
+        </div>
+    
+        <div>
+          <img class="header__icon" src="images/refresh.png" alt="refresh">
+          <img class="header__icon" src="images/launch.png" alt="start movie">
+        </div>
 
-		<h5 class="nav__title">Your Movie Circles</h5>
-			<ul class="nav__list">
-				<li class="nav__items mustSee">This I Must See</li>
-				<li class="nav__items theBest">The Best</li>
-			</ul>
+      </div>
 
-		<h5 class="nav__title">Collections</h5>
-			<ul class="nav__list">
-				<li class="nav__items bob">Me and Bob</li>
-				<li class="nav__items travel">Travel Movies</li>
-			</ul>
+      <div class="topRightSidebar">
+        <div class="header__profile">
+          <div class="profile">
+            <img class="profile__image" src="images/me_4.jpg" alt="profile image">
+              John Morrow
+            <img class=" profile__status" src="images/radio_button.png" alt="online status">
+          </div>
+        </div>
+      </div>
 
-	</div>
-	
-	<div class="box3 movie">
+    </div>
+  </div>
 
-		<div class="movie">
-			<div class="movie__posterImage"><img src="http://placehold.it/125x175"></div>
-			<div class="movie__title">Title</div>
-			<div class="movie__genre">Genre</div>
-			<div class="movie__runTime">Running Time</div>
-		</div>
+  <div class="superContainer">
+    <div class="container">
+       <div class="leftSidebar"> 
+        <div class="nav">
+          <div class="nav__title">Main
+            <ul class="nav__list">
+              <li class="nav__items playing">Playing</li>
+              <li class="nav__items is_selected discover">Discover</li>
+              <li class="nav__items activity">Activity</li>
+              <li class="nav__items topCharts">Top Charts</li>
+              <li class="nav__items newReleases">New Releases</li>
+            </ul>
+          </div>
+          <div class="nav__title">Your Movie Circles
+            <ul class="nav__list">
+              <li class="nav__items mustSee">This I Must See</li>
+              <li class="nav__items theBest">The Best</li>
+            </ul>
+          </div>
+          <div class="nav__title">Collections
+            <ul class="nav__list">
+              <li class="nav__items bobAndMe">Me and Bob</li>
+              <li class="nav__items travelMovies">Travel Movies</li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
-		<div class="movie">
-			<div class="movie__posterImage"><img src="http://placehold.it/125x175"></div>
-			<div class="movie__title">Title</div>
-			<div class="movie__genre">Genre</div>
-			<div class="movie__runTime">Running Time</div>
-		</div>
+      <div class="mainContent">
 
-		<div class="movie">
-			<div class="movie__posterImage"><img src="http://placehold.it/125x175"></div>
-			<div class="movie__title">Title</div>
-			<div class="movie__genre">Genre</div>
-			<div class="movie__runTime">Running Time</div>
-		</div>
+        <div class="movie">
+          <div class="movie__posterImage"><img src="http://placehold.it/125x175"></div>
+          <div class="movie__title">Title</div>
+          <div class="movie__genre">Genre</div>
+          <div class="movie__runTime">Running Time</div>
+        </div>
 
-		<div class="movie">
-			<div class="movie__posterImage"><img src="http://placehold.it/125x175"></div>
-			<div class="movie__title">Title</div>
-			<div class="movie__genre">Genre</div>
-			<div class="movie__runTime">Running Time</div>
-		</div>
+        <div class="movie">
+          <div class="movie__posterImage"><img src="http://placehold.it/125x175"></div>
+          <div class="movie__title">Title</div>
+          <div class="movie__genre">Genre</div>
+          <div class="movie__runTime">Running Time</div>
+        </div>
 
-		<div class="movie">
-			<div class="movie__posterImage"><img src="http://placehold.it/125x175"></div>
-			<div class="movie__title">Title</div>
-			<div class="movie__genre">Genre</div>
-			<div class="movie__runTime">Running Time</div>
-		</div>
+        <div class="movie">
+          <div class="movie__posterImage"><img src="http://placehold.it/125x175"></div>
+          <div class="movie__title">Title</div>
+          <div class="movie__genre">Genre</div>
+          <div class="movie__runTime">Running Time</div>
+        </div>
 
-		<div class="movie">
-			<div class="movie__posterImage"><img src="http://placehold.it/125x175"></div>
-			<div class="movie__title">Title</div>
-			<div class="movie__genre">Genre</div>
-			<div class="movie__runTime">Running Time</div>
-		</div>
+        <div class="movie">
+          <div class="movie__posterImage"><img src="http://placehold.it/125x175"></div>
+          <div class="movie__title">Title</div>
+          <div class="movie__genre">Genre</div>
+          <div class="movie__runTime">Running Time</div>
+        </div>
 
-		<div class="movie">
-			<div class="movie__posterImage"><img src="http://placehold.it/125x175"></div>
-			<div class="movie__title">Title</div>
-			<div class="movie__genre">Genre</div>
-			<div class="movie__runTime">Running Time</div>
-		</div>
+        <div class="movie">
+          <div class="movie__posterImage"><img src="http://placehold.it/125x175"></div>
+          <div class="movie__title">Title</div>
+          <div class="movie__genre">Genre</div>
+          <div class="movie__runTime">Running Time</div>
+        </div>
 
-		<div class="movie">
-			<div class="movie__posterImage"><img src="http://placehold.it/125x175"></div>
-			<div class="movie__title">Title</div>
-			<div class="movie__genre">Genre</div>
-			<div class="movie__runTime">Running Time</div>
-		</div>
+        <div class="movie">
+          <div class="movie__posterImage"><img src="http://placehold.it/125x175"></div>
+          <div class="movie__title">Title</div>
+          <div class="movie__genre">Genre</div>
+          <div class="movie__runTime">Running Time</div>
+        </div>
 
-		<div class="movie">
-			<div class="movie__posterImage"><img src="http://placehold.it/125x175"></div>
-			<div class="movie__title">Title</div>
-			<div class="movie__genre">Genre</div>
-			<div class="movie__runTime">Running Time</div>
-		</div>
+        <div class="movie">
+          <div class="movie__posterImage"><img src="http://placehold.it/125x175"></div>
+          <div class="movie__title">Title</div>
+          <div class="movie__genre">Genre</div>
+          <div class="movie__runTime">Running Time</div>
+        </div>
 
-		<div class="movie">
-			<div class="movie__posterImage"><img src="http://placehold.it/125x175"></div>
-			<div class="movie__title">Title</div>
-			<div class="movie__genre">Genre</div>
-			<div class="movie__runTime">Running Time</div>
-		</div>
+        <div class="movie">
+          <div class="movie__posterImage"><img src="http://placehold.it/125x175"></div>
+          <div class="movie__title">Title</div>
+          <div class="movie__genre">Genre</div>
+          <div class="movie__runTime">Running Time</div>
+        </div>
 
-		<div class="movie">
-			<div class="movie__posterImage"><img src="http://placehold.it/125x175"></div>
-			<div class="movie__title">Title</div>
-			<div class="movie__genre">Genre</div>
-			<div class="movie__runTime">Running Time</div>
-		</div>
+        <div class="movie">
+          <div class="movie__posterImage"><img src="http://placehold.it/125x175"></div>
+          <div class="movie__title">Title</div>
+          <div class="movie__genre">Genre</div>
+          <div class="movie__runTime">Running Time</div>
+        </div>
+        
+        <div class="movie">
+          <div class="movie__posterImage"><img src="http://placehold.it/125x175"></div>
+          <div class="movie__title">Title</div>
+          <div class="movie__genre">Genre</div>
+          <div class="movie__runTime">Running Time</div>
+        </div>
 
-		<div class="movie">
-			<div class="movie__posterImage"><img src="http://placehold.it/125x175"></div>
-			<div class="movie__title">Title</div>
-			<div class="movie__genre">Genre</div>
-			<div class="movie__runTime">Running Time</div>
-		</div>
+        <div class="movie">
+          <div class="movie__posterImage"><img src="http://placehold.it/125x175"></div>
+          <div class="movie__title">Title</div>
+          <div class="movie__genre">Genre</div>
+          <div class="movie__runTime">Running Time</div>
+        </div>
 
-		<div class="movie">
-			<div class="movie__posterImage"><img src="http://placehold.it/125x175"></div>
-			<div class="movie__title">Title</div>
-			<div class="movie__genre">Genre</div>
-			<div class="movie__runTime">Running Time</div>
-		</div>
+        <div class="movie">
+          <div class="movie__posterImage"><img src="http://placehold.it/125x175"></div>
+          <div class="movie__title">Title</div>
+          <div class="movie__genre">Genre</div>
+          <div class="movie__runTime">Running Time</div>
+        </div>
 
-		<div class="movie">
-			<div class="movie__posterImage"><img src="http://placehold.it/125x175"></div>
-			<div class="movie__title">Title</div>
-			<div class="movie__genre">Genre</div>
-			<div class="movie__runTime">Running Time</div>
-		</div>
+        <div class="movie">
+          <div class="movie__posterImage"><img src="http://placehold.it/125x175"></div>
+          <div class="movie__title">Title</div>
+          <div class="movie__genre">Genre</div>
+          <div class="movie__runTime">Running Time</div>
+        </div>
 
-		<div class="movie">
-			<div class="movie__posterImage"><img src="http://placehold.it/125x175"></div>
-			<div class="movie__title">Title</div>
-			<div class="movie__genre">Genre</div>
-			<div class="movie__runTime">Running Time</div>
-		</div>
+        <div class="movie">
+          <div class="movie__posterImage"><img src="http://placehold.it/125x175"></div>
+          <div class="movie__title">Title</div>
+          <div class="movie__genre">Genre</div>
+          <div class="movie__runTime">Running Time</div>
+        </div>
+        
+        <div class="movie">
+          <div class="movie__posterImage"><img src="http://placehold.it/125x175"></div>
+          <div class="movie__title">Title</div>
+          <div class="movie__genre">Genre</div>
+          <div class="movie__runTime">Running Time</div>
+        </div>
 
-	</div>
-	
-	<div class="box4 friends">
-		<div class="friends__name">
-			
-			<div class="friends__online">Online
+      </div>
 
-				<div class="friends__profile">
-					<img class="friend__image" src="images/me_4.jpg" alt="friend image">
-					<h5 class="friend__name">John Morrow</h5>
-					<p class="friend__movie">Movie Title</p>
-					<img class="friend__status" src="images/radio_button.png" alt="online status">
-				</div>
+      <div class="rightSidebar">
+        <div class="friends__online">Online
 
-				<div class="friends__profile">
-					<img class="friend__image" src="images/me_4.jpg" alt="friend image">
-					<h5 class="friend__name">John Morrow</h5>
-					<p class="friend__movie">Movie Title</p>
-					<img class="friend__status" src="images/radio_button.png" alt="online status">
-				</div>
+          <div class="friends__profile">
+            <div class="friend__left">
+              <img class="friend__image" src="images/me_4.jpg" alt="friend image">
+            </div>
+            <div class="friend__main">
+              <div class="friend__name">John Morrow</div>
+              <div class="friend__movie">Movie Title</div>
+            </div>
+            <div class="friend__right">
+              <svg height="28" width="10"><circle cx="5" cy="14" r="4" fill="#93B951" /></svg>
+            </div>
+          </div>
 
-				<div class="friends__profile">
-					<img class="friend__image" src="images/me_4.jpg" alt="friend image">
-					<h5 class="friend__name">John Morrow</h5>
-					<p class="friend__movie">Movie Title</p>
-					<img class="friend__status" src="images/radio_button.png" alt="online status">
-				</div>
+          <div class="friends__profile">
+            <div class="friend__left">
+              <img class="friend__image" src="images/me_4.jpg" alt="friend image">
+            </div>
+            <div class="friend__main">
+              <div class="friend__name">John Morrow</div>
+              <div class="friend__movie">Movie Title</div>
+            </div>
+            <div class="friend__right">
+              <svg height="28" width="10"><circle cx="5" cy="14" r="4" fill="#93B951" /></svg>
+            </div>
+          </div>
 
-				<div class="friends__profile">
-					<img class="friend__image" src="images/me_4.jpg" alt="friend image">
-					<h5 class="friend__name">John Morrow</h5>
-					<p class="friend__movie">Movie Title</p>
-					<img class="friend__status" src="images/radio_button.png" alt="online status">
-				</div>
+          <div class="friends__profile">
+            <div class="friend__left">
+              <img class="friend__image" src="images/me_4.jpg" alt="friend image">
+            </div>
+            <div class="friend__main">
+              <div class="friend__name">John Morrow</div>
+              <div class="friend__movie">Movie Title</div>
+            </div>
+            <div class="friend__right">
+              <svg height="28" width="10"><circle cx="5" cy="14" r="4" fill="#F5AE3F" /></svg>
+            </div>
+          </div>
 
-				<div class="friends__profile">
-					<img class="friend__image" src="images/me_4.jpg" alt="friend image">
-					<h5 class="friend__name">John Morrow</h5>
-					<p class="friend__movie">Movie Title</p>
-					<img class="friend__status" src="images/radio_button.png" alt="online status">
-				</div>
+          <div class="friends__profile">
+            <div class="friend__left">
+              <img class="friend__image" src="images/me_4.jpg" alt="friend image">
+            </div>
+            <div class="friend__main">
+              <div class="friend__name">John Morrow</div>
+              <div class="friend__movie">Movie Title</div>
+            </div>
+            <div class="friend__right">
+              <svg height="28" width="10"><circle cx="5" cy="14" r="4" fill="#CC4D4D" /></svg>
+            </div>
+          </div>
 
-			</div>
+          <div class="friends__profile">
+            <div class="friend__left">
+              <img class="friend__image" src="images/me_4.jpg" alt="friend image">
+            </div>
+            <div class="friend__main">
+              <div class="friend__name">John Morrow</div>
+              <div class="friend__movie">Movie Title</div>
+            </div>
+            <div class="friend__right">
+              <svg height="28" width="10"><circle cx="5" cy="14" r="4" fill="#F5AE3F" /></svg>
+            </div>
+          </div>
+        </div>
 
-		</div>
+        <div class="friends__offline">Offline
 
-	</div>
+          <div class="friends__profile">
+            <div class="friend__left">
+              <img class="friend__image" src="images/me_4.jpg" alt="friend image">
+            </div>
+            <div class="friend__main">
+              <div class="friend__name">John Morrow</div>
+              <div class="friend__movie">Movie Title</div>
+            </div>
+            <div class="friend__right">
+              <svg height="28" width="10"><circle cx="5" cy="14" r="4" fill="#C4CCD8" /></svg>
+            </div>
+          </div>
 
+          <div class="friends__profile">
+            <div class="friend__left">
+              <img class="friend__image" src="images/me_4.jpg" alt="friend image">
+            </div>
+            <div class="friend__main">
+              <div class="friend__name">John Morrow</div>
+              <div class="friend__movie">Movie Title</div>
+            </div>
+            <div class="friend__right">
+              <svg height="28" width="10"><circle cx="5" cy="14" r="4" fill="#C4CCD8" /></svg>
+            </div>
+          </div>
+
+          <div class="friends__profile">
+            <div class="friend__left">
+              <img class="friend__image" src="images/me_4.jpg" alt="friend image">
+            </div>
+            <div class="friend__main">
+              <div class="friend__name">John Morrow</div>
+              <div class="friend__movie">Movie Title</div>
+            </div>
+            <div class="friend__right">
+              <svg height="28" width="10"><circle cx="5" cy="14" r="4" fill="#C4CCD8" /></svg>
+            </div>
+          </div>
+
+          <div class="friends__profile">
+            <div class="friend__left">
+              <img class="friend__image" src="images/me_4.jpg" alt="friend image">
+            </div>
+            <div class="friend__main">
+              <div class="friend__name">John Morrow</div>
+              <div class="friend__movie">Movie Title</div>
+            </div>
+            <div class="friend__right">
+              <svg height="28" width="10"><circle cx="5" cy="14" r="4" fill="#C4CCD8" /></svg>
+            </div>
+          </div>
+
+          <div class="friends__profile">
+            <div class="friend__left">
+              <img class="friend__image" src="images/me_4.jpg" alt="friend image">
+            </div>
+            <div class="friend__main">
+              <div class="friend__name">John Morrow</div>
+              <div class="friend__movie">Movie Title</div>
+            </div>
+            <div class="friend__right">
+              <svg height="28" width="10"><circle cx="5" cy="14" r="4" fill="#C4CCD8" /></svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="chatBox">
+          <input class="chatBox__search" type="text" name="chat box" placeholder="Chat with..."><img class="chatBox__image" src="images/search.png" alt="Chat Box">
+
+        </div>
+      </div>
+
+    </div>
+  </div>    
 </body>
+
 </html>
+
