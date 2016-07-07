@@ -6,7 +6,7 @@
 }
 .topSuperContainer {
   display: flex;
-  height: 70px;
+  height: 80px;
   flex-direction: column;
 }
 
@@ -78,7 +78,7 @@
 
 .header__search {
 	display: flex;
-	align-items: center;
+	justify-content: center;
 }
 .search{
 	font-style: none;
@@ -97,7 +97,7 @@
 
 .search__image {
 	border-bottom: solid 1px white;
-	width: 15px;
+	width: 24px;
 }
 
 /* ------------------------- Title CSS ------------------------- */
@@ -235,7 +235,7 @@
 .movie__image {
 	height: 160px;
 	width: 110px;
-	border-radius: 5px;
+	border-radius: 4px;
 	margin-bottom: 10px;
 }
 
