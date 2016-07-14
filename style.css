@@ -1,0 +1,362 @@
+/* ------------------------ layout and background ------------------ */
+.site {
+	margin: 0px;
+	font-family: "Raleway", sans-serif;
+}
+
+.topSuperContainer {
+  display: flex;
+  height: 80px;
+  flex-direction: column;
+}
+
+.superContainer {
+  display: flex;
+  min-height: 93vh;
+  flex-direction: column;
+}
+
+.topContainer {
+	display: flex;
+  	flex: 1;
+}
+
+.topLeftSidebar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* 12em is the width of the column */
+	flex: 0 0 12em;
+	background-color: #CC4D4D;
+}
+
+.topMainContent {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  	flex: 1;
+  	padding: 25px;
+}
+
+.topRightSidebar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* 12em is the width of the column */
+	flex: 0 0 12em;
+	background: #74C0C8;
+}
+
+.container {
+  	display: flex;
+  	flex: 1;
+}
+
+.mainContent {
+	display: flex;
+  	flex: 1;
+  	flex-wrap: wrap;
+  	justify-content: space-around;
+}
+
+.leftSidebar {
+	display: flex;
+	/* 12em is the width of the column */
+	flex: 0 0 12em;
+	background: #11171C;
+}
+
+.rightSidebar {
+	display: flex;
+	justify-content: center;
+	/* 12em is the width of the column */
+	flex: 0 0 12em;
+	background: #ECEDEF;
+}
+
+/* ------------------------- Search Box CSS ------------------------- */
+
+.header__search {
+	display: flex;
+	justify-content: center;
+}
+.search{
+	font-style: none;
+	border-style: none;
+	border-bottom: solid 1px white;
+	background-color: transparent;
+	
+	color: white;
+}
+
+.search::-webkit-input-placeholder {
+	color: #F6F7F7;
+	font-style: italic;
+	font-weight: lighter;
+}
+
+.search__image {
+	border-bottom: solid 1px white;
+	width: 24px;
+}
+
+/* ------------------------- Title CSS ------------------------- */
+
+.header__title {
+	font-size: 24px;
+	font-weight: 300;
+}
+
+/* ------------------------- Header Sort CSS ------------------------- */
+
+.header__sort {
+	color: #CED6DE;
+	font-size: 11px;
+	font-weight: 600;
+}
+
+.sort__item {
+	display: inline;
+}	
+
+.sort__divide {
+	display: inline;
+
+}
+
+.sort__item--selected {
+	color: #74C0C8;
+}
+
+/* ------------------------- Header Icon CSS ------------------------- */
+
+.header__icon {
+	display: inline;
+	width: 18px;
+	margin: 5px;
+
+}
+
+/* ------------------------- Header Profile CSS ------------------------- */
+
+.header__profile {
+}
+
+.profile {
+	display: flex;
+	align-items: center;
+	font-size: 11px;
+	color: white;
+}
+
+.profile__image {
+	width: 20px;
+	border-radius: 10px;
+	margin-right: 10px;
+}
+
+.profile__status {
+	width: 8px;
+	margin-left: 20px;
+	border-radius: 50%;
+}
+
+/* ------------------------- Nav CSS ------------------------- */
+
+.nav{
+	padding: 30px;
+}
+
+.nav__title {
+	color: #34434B;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.nav__list{
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+.nav__items {
+	display: flex;
+	align-items: center;
+	padding: 5px 0;
+	color: #F6F7F7;
+	font-size: 11px;
+	font-weight: 500;
+}
+
+.nav__items.nav__items--is_selected{
+	background-color: #1C242B;
+}
+
+.nav__image {
+	padding-right: 5px;
+	width: 16px;
+}
+
+.nav__items--playing{
+
+}
+
+.nav__items--discover{
+
+}
+
+.nav__items--activity {
+
+}
+
+.nav__items--topCharts {
+
+}
+
+.nav__items--newReleases {
+
+}
+
+.nav__items--mustSee {
+	
+}
+
+.nav__items--theBest{
+	
+}
+
+.nav__items--bobAndMe{
+
+}
+
+.nav__items--travelMovies{
+
+}
+
+/* ------------------------- Moive CSS ------------------------- */
+
+.movie{
+	margin: 10px;
+	font-size: 11px;
+	color: #8D98A6;
+}
+
+.movie__posterImage {
+}
+
+.movie__image {
+	height: 160px;
+	width: 110px;
+	border-radius: 4px;
+	margin-bottom: 10px;
+}
+
+.movie__title{
+	font-weight: bold;
+	color: #5B6971;
+	font-weight: 600;
+}
+
+.movie__genre{
+	font-weight: 500;
+}
+
+.movie__runTime {
+	font-weight: 500;
+}
+
+/* ------------------------- Friend CSS ------------------------- */
+.rightSidebar {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+.friends__online {
+	color: black;
+	font-size: 11px;
+	margin: 30px 0 0 30px;
+}
+
+.friends__offline {
+	color: black;
+	font-size: 11px;
+	margin-left: 30px;
+}
+
+.friends__profile {
+	display: flex;
+  	flex: 1;
+	font-size: 11px;
+	margin: 20px 20px 20px 0;
+}
+
+.friend__left {
+	display: flex;
+	flex: 0;
+}
+
+.friend__main {
+  	flex: 1;
+  	flex-wrap: wrap;
+}
+
+.friend__right {
+	display: flex;
+	flex: 0;
+}
+
+.friend__image{
+	display: flex;
+	align-self: flex-start;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.friend__name {
+	display: flex;
+	align-self: center;
+	color: #5B6971;
+	font-weight: 600;
+}
+
+.friend__movie {
+	display: flex;
+	align-self: center;
+	font-size: 10px;
+	color: #8D98A6;
+	font-weight: 500;
+}
+
+.friend__status {
+	display: flex;
+	justify-content: center;
+	width: 7px;
+}
+
+/* ------------------------- Chat Box CSS ------------------------- */
+
+.chatBox{
+	padding: 28px 16px;
+	display: flex;
+	justify-content: center;
+	background-color: #C4CCD8;
+}
+.chatBox__search{
+	font-style: none;
+	border-style: none;
+	border-bottom: solid 1px white;
+	background-color: transparent;
+	
+	color: white;
+}
+
+.chatBox__search::-webkit-input-placeholder {
+	color: white;
+	font-style: italic;
+}
+
+.chatBox__image {
+	border-bottom: solid 1px white;
+	width: 24px;
+}

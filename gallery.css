@@ -1,0 +1,17 @@
+.galleryComponentTitle {
+	font-size: 24px;
+	text-decoration: underline;
+}
+
+.galleryComponentContainer {
+	border: solid 1px grey;
+	padding: 20px;
+	margin-bottom: 40px;
+}
+
+.galleryComponentContainer--black {
+	border: solid 1px grey;
+	padding: 20px;
+	margin-bottom: 40px;
+	background-color: black
+}
